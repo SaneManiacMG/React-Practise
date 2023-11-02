@@ -15,11 +15,13 @@ import Form from "./components/Form";
 import FragmentDemo from "./components/FragmentDemo";
 import Table from "./components/Table";
 import ParentComp from "./components/ParentComp";
+import RefsDemo from "./components/RefsDemo";
 
 function App() {
 	return (
 		<>
-			<ParentComp />
+			<p>Test output</p>
+			<RefsDemo />
 		</>
 	);
 }
