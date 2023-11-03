@@ -8,7 +8,7 @@ const App = () => {
 	return (
 		<>
 			<HoverCounter />
-			<ClickCounter />
+			<ClickCounter name="MG" />
 		</>
 	);
 };

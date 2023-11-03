@@ -6,9 +6,11 @@ const ClickCounter = (props) => {
 
 	return (
 		<div>
-			<button onClick={incrementCount}>Clicked {count} times</button>
+			<button onClick={incrementCount}>
+				{props.name} Clicked {count} times
+			</button>
 		</div>
 	);
 };
 
-export default withCounter(ClickCounter);
+export default withCounter(ClickCounter, 5);
